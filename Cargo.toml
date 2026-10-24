@@ -16,7 +16,7 @@ edition = "2018"
 travis-ci = { repository = "daa84/neovim-lib", branch = "master"  }
 
 [dependencies]
-rmpv = { version ="0.4", features=["with-serde"] }
+rmpv = { version ="1", features=["with-serde"] }
 log = "0.4"
 
 [target.'cfg(unix)'.dependencies]
